@@ -1,14 +1,12 @@
+.projetos {
+    background-color: blueviolet;
+}
+
 .projetos .container-projetos {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     margin: auto;
     grid-gap: 20px;
-}
-
-@media(max-width: 1280px) {
-    .projetos .container-projetos {
-        padding: 0 var(--mobile-padding);
-    }
 }
 
 .projetos .container-projetos .projeto {

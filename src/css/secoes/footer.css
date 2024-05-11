@@ -1,7 +1,11 @@
 .footer {
+    background-color: rgb(204, 54, 54);
+}
+
+.footer {
     margin-top: 7rem;
     text-align: center;
-    background-color: var(--cor-fundo-cinza-claro);
+    /* background-color: var(--cor-fundo-cinza-claro); */  /* DESCOMENTAR */
 }
 
 .footer .container {

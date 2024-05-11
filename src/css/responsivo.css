@@ -1,40 +1,84 @@
- @media(max-width: 992px) {
-    .cabecalho {
-        padding: 30px;
+@media(max-width: 900px) {
+    .sobre-mim .row {
+        justify-content: center;
     }
 
-   .home {
-        flex-direction: column;
-        align-items: center;
-        margin: 50px 0;
-        gap: 30px;
-    }
-
-    .home .informacoes {
+    .sobre-mim .imagem-sobre-mim {
         max-width: 100%;
+        padding: 0 var(--mobile-padding);
+        margin-bottom: 50px;
+    }
+
+    .sobre-mim .informacoes-sobre-mim {
+        padding: 0 var(--mobile-padding);
         text-align: center;
-        align-items: center;
     }
 
-    .home .container-projetos {
-        padding: 0 30px;
-    }
-} 
-
-@media(max-width:425px) {
-    .home .informacoes h1 {
-        font-size: 30px;
-    }
-
-    .home .informacoes p {
-        font-size: 16px;
-    }
-
-    .home .container-foto img {
-        max-width: 320px;
-    }
-
-    .projetos {
-        padding: 30px;
+    .sobre-mim .imagem-sobre-mim .inner-shadow {
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
     }
 }
+
+@media(max-width:768px) {
+    .sobre-mim .informacoes-sobre-mim {
+        max-width: 100%;
+    }
+}
+
+@media(max-width: 1200px) {
+    .projetos .container-projetos {
+        padding: 0 var(--mobile-padding);
+    }
+}
+
+@media(max-width: 1200px) {
+    .home .texto-home, .home .img-home {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+        padding: 0 var(--mobile-padding);
+    }
+
+    .home .img-home {
+        margin-top:50px
+    }
+}
+
+@media(max-width: 1200px) {
+    .header {
+        padding: var(--mobile-padding);
+    }
+}
+
+@media(max-width: 900px) {
+    .header .menu {
+        display: block;
+    }
+
+    /* pega todos os itens que após o unput e que são irmãos dele */
+    .header nav input:checked ~ ul {
+        display: block;
+    }
+
+    .header nav {
+        position: absolute;
+        top: 30px;
+        right: 20px;
+        z-index: 1;
+    }
+
+    .header nav ul {
+        display: none;
+        background-color: var(--cor-fundo-escuro);
+        padding: 20px;
+    }
+
+    .header nav li a {
+        color: var(--cor-branca);
+        text-align: center;
+        padding: 20px;
+        display: block;
+    }
+} 

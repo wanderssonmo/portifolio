@@ -1,4 +1,8 @@
 .header {
+    background-color: rgb(5, 5, 150);
+}
+
+.header {
     padding: 30px 15px;
 }
 
@@ -103,40 +107,4 @@
     bottom: 0;
 }
 
-@media(max-width: 1200px) {
-    .header {
-        padding: var(--mobile-padding);
-    }
-}
-
-@media(max-width: 900px) {
-    .header .menu {
-        display: block;
-    }
-
-    /* pega todos os itens que após o unput e que são irmãos dele */
-    .header nav input:checked ~ ul {
-        display: block;
-    }
-
-    .header nav {
-        position: absolute;
-        top: 30px;
-        right: 20px;
-        z-index: 1;
-    }
-
-    .header nav ul {
-        display: none;
-        background-color: var(--cor-fundo-escuro);
-        padding: 20px;
-    }
-
-    .header nav li a {
-        color: var(--cor-branca);
-        text-align: center;
-        padding: 20px;
-        display: block;
-    }
-} 
 
