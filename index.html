@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderson Mendes Oliveira</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./src/imagens/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/estilosGlobais.css">
+    <link rel="stylesheet" href="src/css/estilosVariaveis.css">
+    <link rel="stylesheet" href="src/css/secoes/header.css">
+    <link rel="stylesheet" href="src/css/secoes/home.css">
+    <link rel="stylesheet" href="src/css/secoes/sobre.css">
+    <link rel="stylesheet" href="src/css/secoes/habilidade.css">
+    <link rel="stylesheet" href="src/css/secoes/projetos.css">
+    <link rel="stylesheet" href="src/css/secoes/footer.css">
+    <!-- <link rel="stylesheet" href=".//src/css/responsivo.css"> -->
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row justify-content-between alinhar-itens-no-centro">
+                <a href="#">
+                    <h1 class="logo">WMO</h1>
+                </a>
+                <nav>
+                    <input id="menu-hamburguer" type="checkbox"/>
+                    <label for="menu-hamburguer">
+                        <div class="menu">
+                            <span class="hamburguer"></span>
+                        </div>    
+                    </label>
+                    <ul>
+                        <li><a href="#Sobre-mim">Sobre mim</a></li>
+                        <li><a href="#Minhas-habilidasdes">Minhas habilidades</a></li>
+                        <li><a href="#Meus projetos">Meus projetos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        
+       <!-- <a href="#">
+            <h1 class="logo">WMO</h1>
+        </a>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="#projetos">Meus projetos</a>
+
+                </li>
+            </ul> -->
+    </header>
+
+    <!-- <section class="home">
+        <div class="informacoes">
+            <h1>Olá! Sou Wanderson Mendes Oliveira</h1>
+            <p>Um desenvolvedor frontend em formação por tecnologia</p>
+            <p>Estou sempre me desafiando com novos projetos e buscando feedback na comunidade de programação, além de compartilhar meus conhecimentos.😁</p>
+            <p>Ah, também gosto de esportes. 💜</p>
+
+            <ul class="redes-sociais">
+                <li>
+                    <a href="https://www.linkedin.com/in/wandersonmob" title="Ir para o linkedin" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://wa.me/5538998342235" title="Enviar mensagem no WhatsApp" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/wandersonmeol" title="Ir para o GitHub" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/wanderson_endeolver" title="Ir para o Instagram" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="container-foto">
+            <div class="foto sombra-interna">
+                <img src="./SRC/imagens/foto-perfil.png" alt="Foto do portifólio do Ricardo">
+            </div>
+        </div>
+    </section>-->
+
+    <section class="home">
+        <div class="container">
+            <div class="row full-screen alinhar-itens-no-centro">
+                <div class="texto-home">
+                    <p>Olá,</p>
+                    <h1>Sou Wanderson Mendes Oliveira</h1>
+                    <h2>desenvolvedor Frontend</h2>
+                    <div class="redes-sociais">
+                        <a href="#" class="outer-shadow"> <i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="outer-shadow"> <i class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="outer-shadow"> <i class="fab fa-github"></i></a>
+                        <a href="#" class="outer-shadow"> <i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="img-home">
+                    <div class="img-box inner-shadow">
+                        <img class="outer-shadow" src="src/imagens/foto-perfil.png" alt="Foto do perfil">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="projetos" id="projetos">
+        <h2 class="titulo">Meus Projetos</h2>
+        <div class="container-projetos">
+            <div class="projeto ativo">
+                <a href="https://github.com/devemdobro/projeto-gta" target="_blank">
+                    <img src="./SRC/imagens/projeto-gta.png" alt="Projeto Landing page GTA">
+                    <h3>Projeto 1</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto Feito usando HTML, CSS e JavaScript.</p>
+                        <p>Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+            <div class="projeto ativo">
+                <a href="https://github.com/devemdobro/projeto-listagem-pokemon" target="_blank">
+                    <img src="./SRC/imagens/projeto-listagem-pokemon.png" alt="Projeto listagem de Pokemon">
+                    <h3>Projeto 2</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto Feito usando HTML, CSS e JavaScript.</p>
+                        <p>Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+            <div class="projeto ativo">
+                <a href="#COLOCAR O LINK DO PROJETO REAL AQUI" target="_blank">
+                    <img src="./SRC/imagens/projeto-one-piece.png" alt="Projeto One Piece">
+                    <h3>Projeto 3</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto Feito usando HTML, CSS e JavaScript.</p>
+                        <p>Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+            <div class="projeto ativo">
+                <a href="#COLOCAR O LINK DO PROJETO REAL AQUI" target="_blank">
+                    <img src="./SRC/imagens/projeto-x-men.png" alt="Projeto Landing x Men">
+                    <h3>Projeto 4</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto Feito usando HTML, CSS e JavaScript.</p>
+                        <p>Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+            <div class="projeto">
+                <a href="#COLOCAR O LINK DO PROJETO REAL AQUI" target="_blank">
+                    <img src="https://via.placeholder.com/515x700" alt="Projeto Landing page GTA">
+                    <h3>Projeto 5</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto Feito usando HTML, CSS e JavaScript.</p>
+                        <p>Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+            <div class="projeto">
+                <a href="#COLOCAR O LINK DO PROJETO REAL AQUI" target="_blank">
+                    <img src="https://via.placeholder.com/515x700" alt="Projeto Landing page GTA">
+                    <h3>Projeto 6</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto Feito usando HTML, CSS e JavaScript.</p>
+                        <p>Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+            <div class="projeto">
+                <a href="#COLOCAR O LINK DO PROJETO REAL AQUI" target="_blank">
+                    <img src="https://via.placeholder.com/515x700" alt="Projeto Landing page GTA">
+                    <h3>Projeto 7</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto Feito usando HTML, CSS e JavaScript.</p>
+                        <p>Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+            <div class="projeto">
+                <a href="#COLOCAR O LINK DO PROJETO REAL AQUI" target="_blank">
+                    <img src="https://via.placeholder.com/515x700" alt="Projeto Landing page GTA">
+                    <h3>Projeto 8</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto Feito usando HTML, CSS e JavaScript.</p>
+                        <p>Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <button class="btn-mostrar-projetos">Mostrar mais</button>
+    </section> -->
+    <section class="sobre-mim section" id="#Sobre-mim">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>Sobre mim</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="imagem-sobre-mim">
+                    <div class="img-box inner-shadow">
+                        <img src="src/imagens/foto-perfil.png" alt="Foto sobre mim" class="outer-shadow">
+                    </div>
+                </div>
+                <div class="informacoes-sobre-mim">
+                    <p>
+                        <strong> Olá! Meu nome é Wanderson, sou desenvolvedor Frontend em formação!</strong>
+                        Gosto muito da área de tecnologia, e tenho certeza que posso contribuir em qualquer time com as minhas habilidades.
+                    </p>
+                    <p>
+                        Estou sempre me desafiando coim novos projetos e participando de comunidades de programação para buscar feedback de outros desenvolvedores e desenvolvedoras. Além de tentar ajudar essas pessoas com o que eu já aprendi. 🙌
+                    </p>
+                    <p>
+                        Ah, gosto de esportes, animes e outras coisas de nerd. 💜
+                    </p>
+                    <div class="botoes">
+                        <a target="_blank" href="/src/arquivos/meuCurriculo.pdf" class="botao outer-shadow">Veja meu CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="habilidades section" id="habilidades">
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2>Habilidades</h2>   
+            </div>
+        </div>
+
+        <div class="container-habilidades">
+            <div class="informacoes javascript">
+                <div class="logo">
+                    <i class="devicon devicon-javascript-plain" id="javascript"></i>
+                </div>
+                <h3>JavaScript</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis temporibus, libero explicabo neque obcaecati reiciendis dolore architecto, dolorum reprehenderit ipsum unde voluptas excepturi quod quia. Dolore molestiae eum praesentium architecto!</p>
+            </div>
+
+            <div class="informacoes html">
+                <div class="logo">
+                    <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+                </div>
+                <h3>HTML</h3>
+                <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam consequatur, incidunt non quo ipsum molestiae mollitia quis dolorum sunt at quae id veritatis voluptatem exercitationem quaerat itaque provident officia minus?</P>
+            </div>
+
+            <div class="informacoes css">
+                <div class="logo">
+                    <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+                </div>
+                <h3>CSS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe molestias, quos sapiente, reiciendis placeat laboriosam aliquam dolorem aspernatur deserunt, sunt reprehenderit debitis dignissimos quia natus accusamus fuga cupiditate consequuntur? Consectetur.</p>
+            </div>
+
+            <div class="informacoes github">
+                <div class="logo">
+                    <i class="devicon devicon-github-original" id="github"></i>
+                </div>
+                <h3>GitHub</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum culpa consequuntur officia cumque eum. Fugiat placeat qui expedita explicabo repellendus vel sed beatae magni sit, exercitationem inventore necessitatibus molestias earum.</p> 
+            </div>
+
+            <div class="informacoes git">
+                <div class="logo">
+                    <i class="devicon devicon-git-plain" id="git"></i>
+                </div>
+                <h3>Git</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quaerat aspernatur hic ad omnis eaque neque tenetur et iure ab voluptatem quibusdam quisquam commodi minus animi, nostrum accusamus non distinctio?</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="projetos section" id="projetos">
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2>Meus Projetos</h2>
+            </div>
+        </div>
+
+        <div class="container-projetos">
+            <div class="projeto">
+                <a href="https://github.com">
+                    <img src="https://via.placeholder.com/515X700" alt="Nome do projeto"/>
+                    <h3>Projeto 1</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projetos feito usando HTML, CSS e JavaScript</p>
+                        <p>Ver no GitHub</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="projeto">
+                <a href="https://github.com">
+                    <img src="https://via.placeholder.com/515X700" alt="Nome do projeto">
+                    <h3>Pojeto 2</h3>
+                    <div class="informacoes-projeto">
+                        <p>Loresm Ipsom</p>
+                        <p>Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div> 
+
+            <div class="projeto">
+                <a href="https://github.com">
+                    <img src="https://via.placeholder.com/515X700" alt="Nome do projeto">
+                    <h3>Projeto 3</h3>
+                    <div class="informacoes-projeto">
+                        <p>Lorem Ipsum</p>
+                        <p> Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="projeto">
+                <a href="https://github.com">
+                    <img src="https://via.placeholder.com/515X700" alt="Nome do projeto">
+                    <h3>Projeto 4</h3>
+                    <div class="informacoes-projeto">
+                        <p>Lorem Ipsum</p>
+                        <p> Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <h2>Me envia uma mensagem!</h2>
+        <div class="redes-sociais">
+            <a href="#" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" class="outer-shadow"><i class="fab fa-github"></i></a>
+            <a href="#" class="outer-shadow"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+</footer>
+   <!--<script src="./SRC/js/index.js"></script>--> 
+</body>
+</html>
