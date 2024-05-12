@@ -1,3 +1,15 @@
+@media(max-width: 540px) {
+    .home .texto-home h1 {
+        font-size: var(--fonte-extra-grande);
+    }
+}
+
+@media(max-width:768px) {
+   .sobre-mim .informacoes-sobre-mim {
+        max-width: 100%;
+    }
+}
+
 @media(max-width: 900px) {
     .sobre-mim .row {
         justify-content: center;
@@ -18,12 +30,6 @@
         -webkit-box-shadow: none;
         -moz-box-shadow: none;
         box-shadow: none;
-    }
-}
-
-@media(max-width:768px) {
-    .sobre-mim .informacoes-sobre-mim {
-        max-width: 100%;
     }
 }
 

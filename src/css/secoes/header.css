@@ -14,7 +14,7 @@
     border-radius: 30%;
     width: 105px;
     height: 50px;
-    line-height: 55px;
+    line-height: 42px;
     text-align: center;
     text-decoration: underline;
     transition: 0.2s;
@@ -103,7 +103,7 @@
 }
 
 .header input:checked .hamburguer {
-    transform: rotate(90deg);
+    transform: rotate(45deg);
     bottom: 0;
 }
 
