@@ -4,6 +4,12 @@
     }
 }
 
+@media(max-width: 960px) {
+    .home .texto-home h1 {
+        margin-top: 8%;
+    } 
+}
+
 @media(max-width:768px) {
    .sobre-mim .informacoes-sobre-mim {
         max-width: 100%;
