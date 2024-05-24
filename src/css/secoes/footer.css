@@ -110,6 +110,11 @@ div a#email {
     background-color: #23bdc2;
 }
 
+.zap {
+    display: flex;
+    flex-direction: row; 
+}
+
 .footer-list {
     display: flex;
     flex-direction: column;
@@ -124,16 +129,6 @@ div a#email {
 
 .footer-list .footer-link:hover {
     color: #7f37c9;
-}
-
-#footer_subscribe {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-}
-
-#footer_subscribe p {
-    color: var(--color-neutral-30);
 }
 
 #input_group {
