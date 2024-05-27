@@ -60,14 +60,17 @@ footer {
 
 #footer-content {
    /* background-color: var(--color-neutral-0); LIBERAR DEPOIS */
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 3rem 3.5rem;
+    /* display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+    padding: 3rem 3.5rem; */
+    display: flex;
+    padding: 2rem 2.5rem;
+    justify-content: space-around;
 }
 
-#footer-contacts h1 {
+/* #footer-contacts h1 {
     margin-bottom: 0.75rem;
-}
+}*/
 
 #footer-social-media {
     display: flex;
@@ -98,8 +101,8 @@ footer {
     background: linear-gradient(#7f37c9, #ff2992, #ff9807);
 }
 
-#facebook {
-    background-color: #4267b3;
+#github {
+    background-color: #3c85ce;
 }
 
 #whatsapp {
@@ -110,15 +113,14 @@ div a#email {
     background-color: #23bdc2;
 }
 
-.zap {
-    display: flex;
-    flex-direction: row; 
-}
+li#email i {
+    font-size: 1rem;
+} 
 
 .footer-list {
     display: flex;
     flex-direction: column;
-    gap: 0.75rem;
+    gap: 0.60rem;
     list-style: none;
 }
 
