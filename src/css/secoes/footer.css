@@ -117,7 +117,7 @@ li#email i {
     font-size: 1rem;
 } 
 
-.footer-list {
+.footer-list, .footer-contato {
     display: flex;
     flex-direction: column;
     gap: 0.60rem;
