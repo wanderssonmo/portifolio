@@ -129,6 +129,10 @@ li#email i {
     transition: all 0.4s;
 }
 
+.footer-contato li a{
+    color: var(--color-neutral-30);
+}
+
 .footer-list .footer-link:hover {
     color: #7f37c9;
 }
@@ -186,14 +190,34 @@ li#email i {
 } */
 
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 480px) {  /* MUDAR PARA 360 */
     #footer-content {
         display: flex;
-        flex-flow: column nowrap;
+        flex-flow: column;
     }
 
-    #footer-social-media, .footer-contato, .footer-list {
-        padding-bottom: 20px;
-        font-size: 2em;
+    .footer-list, .footer-contato, .footer-list {
+        padding-bottom: 30px;
+        font-size: 1.5rem;
+    }
+
+    #footer_copyright {
+        font-size: 1.2rem;
+    }
+}
+
+/* @media screen and (min-width: 361px) and (max-width:768) {
+    #footer-content {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .footer-list, .footer-contato, .footer-list {
+        padding-bottom: 30px;
+        font-size: 1.5rem;
+    }
+
+    #footer_copyright {
+        font-size: 1.2rem;
     }
 }
