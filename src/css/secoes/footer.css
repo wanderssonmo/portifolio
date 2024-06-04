@@ -60,12 +60,9 @@ footer {
 
 #footer-content {
    /* background-color: var(--color-neutral-0); LIBERAR DEPOIS */
-    /* display: grid; 
-    grid-template-columns: repeat(2, 1fr);
-    padding: 3rem 3.5rem; */
     display: flex;
     padding: 2rem 2.5rem;
-    justify-content: space-around;
+    justify-content: space-around; 
 }
 
 /* #footer-contacts h1 {
@@ -190,7 +187,7 @@ li#email i {
 } */
 
 
-@media screen and (max-width: 480px) {  /* MUDAR PARA 360 */
+@media screen and (max-width: 360px) { 
     #footer-content {
         display: flex;
         flex-flow: column;
@@ -198,7 +195,7 @@ li#email i {
 
     .footer-list, .footer-contato, .footer-list {
         padding-bottom: 30px;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     #footer_copyright {
@@ -206,10 +203,9 @@ li#email i {
     }
 }
 
-/* @media screen and (min-width: 361px) and (max-width:768) {
+@media screen and (min-width: 361px) {
     #footer-content {
         display: flex;
-        flex-flow: column;
     }
 
     .footer-list, .footer-contato, .footer-list {
