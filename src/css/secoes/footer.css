@@ -203,17 +203,20 @@ li#email i {
     }
 }
 
-@media screen and (min-width: 361px) {
+@media screen and (min-width: 361px) and (max-width:500px) {
     #footer-content {
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .footer-list, .footer-contato, .footer-list {
-        padding-bottom: 30px;
+        padding-bottom: 20px;
         font-size: 1.5rem;
     }
 
     #footer_copyright {
         font-size: 1.2rem;
+        
     }
 }
